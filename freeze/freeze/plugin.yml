@@ -1,0 +1,10 @@
+name: freeze
+version: 1.0
+author: Adantesdents
+main: fr.adantesdents.freeze.main
+commands:
+  freeze:
+    description: Geler un joueur
+    usage: /freeze <joueur>
+    permission: freeze.use
+    executor: fr.adantesdents.freeze.FreezeCommand
